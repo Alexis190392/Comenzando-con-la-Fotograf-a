@@ -1,3 +1,8 @@
+body{
+  background-color: black;
+  width: 99%;
+}
+
 header{
   background-color: #5b7989;
   width: 99%;
@@ -15,7 +20,7 @@ header{
 
 #title{
   margin: 10px;
-  display: inline;
+  display: inline-block;
   float: left;
 }
 
@@ -23,11 +28,14 @@ header{
   padding: 10px;
   margin: 10px;
   float: right;
-  text-align: center;
+}
+
+header li{
+  display: inline-block;
 }
 
 nav a:link, nav a:visited{
-  display: inline-block;
+  display: inline;
   text-decoration: none;
   color: white;
 }
@@ -36,20 +44,29 @@ nav a:active{
   text-decoration: underline;
 }
 
-div{
-  display: inline;
+.imgppal{
+  width: 99%;
+  display: inline-block;
+  background-color: green;
+
 }
 
-header li{
-  display: inline;
+#imgp{
+  
+  transform: scale(0.5);
 }
 
-.atardecer{
-   width: 50%;
-   display: inline;
- }
+.imgsec{
+  display: inline-block;
+}
 
+#imgizq{
 
+}
+
+#imgder{
+
+}
 
 footer{
   clear: both;
