@@ -1,51 +1,39 @@
+
 header{
   background-color: #5b7989;
-  width: 99%;
-  height: 100px;
-  margin-right: 10px;
-  border-radius: 10px;
+  margin-left: none;
+  width: 100%;
+  height: 100px auto;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  font-family: georgia;
+  font-size: 1.2em;
   position: fixed;
   top: 0;
 }
 
 #title{
-  text-align: left;
-  color: white;
-  text-shadow: 2px 2px 2px #02010a;
+  margin: 10px;
   display: inline;
+  float: left;
 }
 
-header nav{
+nav{
+  margin: 10px;
+  display: block;
   float: right;
 }
 
-.menu1{
+header li{
   display: inline;
-  border: 1px solid;
-  border-color: black;
 }
-
-.menu2{
-  display: inline;
-  border: 1px solid;
-  border-color: black;
-}
-
-.menu3{
-  display: inline;
-  border: 1px solid;
-  border-color: black;
-}
-
 footer{
   clear: both;
   background-color: #5b7989;
-  text-align: left;
   color: white;
-  width: 100%;
+  width: 99%;
   height: 100px;
-  text-shadow: 2px 2px 2px #02010a;
-  border-radius: 10px;
+  margin: auto;
   position: fixed;
   bottom: 0;
 }
