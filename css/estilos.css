@@ -5,8 +5,9 @@ body{
 
 header{
   background-color: #5b7989;
-  width: 99%;
+  width: 100%;
   height: 100px auto;
+  margin-right: 0;
   border-radius: 10px 10px 0px 0px;
   -webkit-border-radius: 10px 10px 0px 0px;
   -moz-border-radius: 10px 10px 0px 0px;
@@ -45,37 +46,40 @@ nav a:active{
 }
 
 .imgppal{
-  width: 99%;
-  display: inline-block;
-  background-color: green;
+  height: 100%;
 
 }
 
-#imgp{
-  
-  transform: scale(0.5);
+section div img{
+ max-width: 100%;
+ width: auto;
+ height: auto;
+}
+
+.img1{
+  background-color: green;
+  padding: 10%;
 }
 
 .imgsec{
+  width: 100%;
+
+
+}
+.img2{
+  max-width: 50%
+  width: auto;
   display: inline-block;
+  float: left;
+  margin: auto;
+  background-color: red;
 }
 
-#imgizq{
-
-}
-
-#imgder{
-
-}
-
-footer{
-  clear: both;
-  background-color: #c6d5c5;
-  width: 99%;
-  height: 100px auto;
-  border-radius: 0px 0px 10px 10px;
-  -webkit-border-radius: 0px 0px 10px 10px;
-  -moz-border-radius: 0px 0px 10px 10px;
-  bottom: 0;
+.img3{
+  max-width: 50%
+  width: auto;
   display: inline-block;
+  float: right;
+  margin: auto;
+  background-color: red;
 }
