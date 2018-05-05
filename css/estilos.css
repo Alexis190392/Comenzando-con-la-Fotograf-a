@@ -61,18 +61,18 @@ section div img{
   padding: 10%;
 }
 
-.imgsec{
-  width: 100%;
-
-
+#imgsec{
+  max-width: 100%;
+  width: auto;
+  background-color: red;
 }
+
 .img2{
   max-width: 50%
   width: auto;
   display: inline-block;
   float: left;
   margin: auto;
-  background-color: red;
 }
 
 .img3{
